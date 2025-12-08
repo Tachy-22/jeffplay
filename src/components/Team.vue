@@ -27,13 +27,13 @@ interface SocialNetworkProps {
 const teamList: TeamProps[] = [
   {
     imageUrl: "https://i.pravatar.cc/250?img=58",
-    firstName: "Leo",
-    lastName: "Miranda",
+    firstName: "Jeffrey",
+    lastName: "Entekume",
     positions: ["Founder & CEO", "Music Industry Veteran"],
     socialNetworks: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "https://www.linkedin.com/in/jeffreyentekume/",
       },
       {
         name: "Github",
@@ -41,7 +41,7 @@ const teamList: TeamProps[] = [
       },
       {
         name: "X",
-        url: "https://x.com/leo_mirand4",
+        url: "https://x.com/jeffreyentekume",
       },
     ],
   },
@@ -54,11 +54,11 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "https://www.linkedin.com/in/jeffreyentekume/",
       },
       {
         name: "X",
-        url: "https://x.com/leo_mirand4",
+        url: "https://x.com/entekumej_",
       },
     ],
   },
@@ -71,7 +71,7 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "https://www.linkedin.com/in/jeffreyentekume/",
       },
       {
         name: "Github",
@@ -88,7 +88,7 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "https://www.linkedin.com/in/jeffreyentekume/",
       },
       {
         name: "Github",
@@ -96,7 +96,7 @@ const teamList: TeamProps[] = [
       },
       {
         name: "X",
-        url: "https://x.com/leo_mirand4",
+        url: "https://x.com/entekumej_",
       },
     ],
   },
@@ -109,7 +109,7 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "https://www.linkedin.com/in/jeffreyentekume/",
       },
     ],
   },
@@ -122,7 +122,7 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "https://www.linkedin.com/in/jeffreyentekume/",
       },
       {
         name: "Github",
@@ -139,7 +139,7 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "https://www.linkedin.com/in/jeffreyentekume/",
       },
       {
         name: "Github",
@@ -147,7 +147,7 @@ const teamList: TeamProps[] = [
       },
       {
         name: "X",
-        url: "https://x.com/leo_mirand4",
+        url: "https://x.com/entekumej_",
       },
     ],
   },
@@ -160,7 +160,7 @@ const teamList: TeamProps[] = [
     socialNetworks: [
       {
         name: "X",
-        url: "https://x.com/leo_mirand4",
+        url: "https://x.com/entekumej_",
       },
     ],
   },

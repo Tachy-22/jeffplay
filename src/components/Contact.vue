@@ -118,7 +118,7 @@ const handleSubmit = () => {
                 <Input
                   id="first-name"
                   type="text"
-                  placeholder="Leopoldo"
+                  placeholder="Jeffrey"
                   v-model="contactForm.firstName"
                 />
               </div>
@@ -128,7 +128,7 @@ const handleSubmit = () => {
                 <Input
                   id="last-name"
                   type="text"
-                  placeholder="Miranda"
+                  placeholder="Entekume"
                   v-model="contactForm.lastName"
                 />
               </div>
