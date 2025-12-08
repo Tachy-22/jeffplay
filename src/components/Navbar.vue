@@ -204,7 +204,7 @@ const isOpen = ref<boolean>(false);
     <div class="hidden lg:flex">
       <ToggleTheme />
 
-      <Button
+      <!-- <Button
         as-child
         size="sm"
         variant="ghost"
@@ -217,7 +217,7 @@ const isOpen = ref<boolean>(false);
         >
           <GithubIcon class="size-5" />
         </a>
-      </Button>
+      </Button> -->
     </div>
   </header>
 </template>

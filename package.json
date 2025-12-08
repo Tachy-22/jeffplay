@@ -1,21 +1,24 @@
 {
-  "name": "shadcn-vue-landing-page",
-  "description": "Shadcn/Vue landing page template using Vue, Shadcn/Vue + TypeScript + Tailwind CSS.",
+  "name": "jeffplay",
+  "description": "Jeffplay - Your Ultimate Music Experience. A modern music streaming app landing page built with Vue, Shadcn/Vue, TypeScript, and Tailwind CSS.",
   "version": "0.1.1",
   "author": {
-    "name": "Leopoldo Miranda",
-    "email": "leomirandadev@gmail.com",
-    "url": "https://github.com/leomirandaa"
+    "name": "Jeffrey Entekume",
+    "email": "entekumejeffrey@gmail.com",
+    "url": "https://github.com/tachy-22"
   },
   "keywords": [
+    "jeffplay",
+    "music-streaming",
+    "music-app",
     "vue",
     "typescript",
     "shadcn",
     "shadcn/vue",
     "tailwind",
     "landing-page",
-    "template",
-    "responsive-design"
+    "audio-streaming",
+    "music-player"
   ],
   "type": "module",
   "private": true,

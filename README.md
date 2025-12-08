@@ -32,11 +32,6 @@ Landing page for Jeffplay - Your Ultimate Music Experience
 
 ## How to install
 
-1. Clone this repositoy:
-
-```bash
-git clone https://github.com/leoMirandaa/shadcn-vue-landing-page.git
-```
 
 2. Go into project
 

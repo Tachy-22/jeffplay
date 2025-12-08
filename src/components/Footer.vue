@@ -152,10 +152,10 @@ import Separator from "./ui/separator/Separator.vue";
           &copy; 2024 Jeffplay. All rights reserved.
           <a
             target="_blank"
-            href="https://github.com/leoMirandaa"
+            href="https://github.com/tachy-22"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Designed by Leo Miranda
+            Designed by Jeffrey Entekume
           </a>
         </h3>
       </section>
