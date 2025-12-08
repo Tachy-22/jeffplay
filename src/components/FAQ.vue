@@ -14,32 +14,32 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free Shadcn/Vue template.",
+    question: "What audio quality does Jeffplay support?",
+    answer: "Jeffplay supports multiple audio quality levels. Free users get standard quality (128kbps), while Premium subscribers enjoy high-quality streaming up to 320kbps, and lossless audio for the ultimate listening experience.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Can I download music for offline listening?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Yes! Premium and Family plan subscribers can download unlimited songs, albums, and playlists for offline listening. Simply tap the download button on any track or playlist.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      "How do I create and share playlists?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Creating playlists is easy! Just click the 'Create Playlist' button, add your favorite songs, and give it a name. You can share your playlists with friends via a link or directly on social media.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Is there a family plan available?",
+    answer: "Absolutely! Our Family plan costs $14.99/month and includes up to 6 individual accounts with all Premium features, plus parental controls and kid-friendly content filters.",
     value: "item-4",
   },
   {
     question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+      "What's included in the free tier?",
+    answer: "The free tier gives you access to millions of songs with occasional ads. You can create playlists, discover new music, and use our mobile and desktop apps. Upgrade to Premium for ad-free listening and offline downloads.",
     value: "item-5",
   },
 ];

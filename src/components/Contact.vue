@@ -29,7 +29,7 @@ const contactForm = reactive<ContactFormeProps>({
   firstName: "",
   lastName: "",
   email: "",
-  subject: "Web Development",
+  subject: "Artist Submission",
   message: "",
 });
 
@@ -58,8 +58,8 @@ const handleSubmit = () => {
           <h2 class="text-3xl md:text-4xl font-bold">Connect With Us</h2>
         </div>
         <p class="mb-8 text-muted-foreground lg:w-5/6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          ipsam sint enim exercitationem ex autem corrupti quas tenetur
+          Have questions about Jeffplay? Want to submit your music or partner with
+          us? We'd love to hear from you. Reach out and let's make music together.
         </p>
 
         <div class="flex flex-col gap-4">
@@ -153,16 +153,16 @@ const handleSubmit = () => {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
-                    <SelectItem value="Web Development">
-                      Web Development
+                    <SelectItem value="Artist Submission">
+                      Artist Submission
                     </SelectItem>
-                    <SelectItem value="Mobile Development">
-                      Mobile Development
+                    <SelectItem value="Playlist Curation">
+                      Playlist Curation
                     </SelectItem>
-                    <SelectItem value="Figma Design"> Figma Design </SelectItem>
-                    <SelectItem value="REST API "> REST API </SelectItem>
-                    <SelectItem value="FullStack Project">
-                      FullStack Project
+                    <SelectItem value="Technical Support"> Technical Support </SelectItem>
+                    <SelectItem value="Partnership Inquiry "> Partnership Inquiry </SelectItem>
+                    <SelectItem value="General Inquiry">
+                      General Inquiry
                     </SelectItem>
                   </SelectGroup>
                 </SelectContent>

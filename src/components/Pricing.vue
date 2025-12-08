@@ -31,44 +31,44 @@ const plans: PlanProps[] = [
     popular: 0,
     price: 0,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Start Free Trial",
+      "Perfect for casual listeners. Enjoy millions of songs with occasional ads.",
+    buttonText: "Start Free",
     benefitList: [
-      "1 team member",
-      "1 GB storage",
-      "Upto 2 pages",
-      "Community support",
-      "AI assistance",
+      "Unlimited songs",
+      "Standard quality audio",
+      "Ad-supported",
+      "Mobile & desktop apps",
+      "Basic playlists",
     ],
   },
   {
     title: "Premium",
     popular: 1,
-    price: 45,
+    price: 9.99,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Get starterd",
+      "The ultimate music experience. Ad-free listening with premium features.",
+    buttonText: "Go Premium",
     benefitList: [
-      "4 team member",
-      "8 GB storage",
-      "Upto 6 pages",
-      "Priority support",
-      "AI assistance",
+      "Ad-free listening",
+      "High-quality audio",
+      "Unlimited skips",
+      "Offline downloads",
+      "Exclusive content",
     ],
   },
   {
-    title: "Enterprise",
+    title: "Family",
     popular: 0,
-    price: 120,
+    price: 14.99,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Contact US",
+      "Premium for the whole family. Up to 6 accounts with parental controls.",
+    buttonText: "Get Family Plan",
     benefitList: [
-      "10 team member",
-      "20 GB storage",
-      "Upto 10 pages",
-      "Phone & email support",
-      "AI assistance",
+      "Up to 6 accounts",
+      "All Premium features",
+      "Kid-friendly content",
+      "Family mix playlists",
+      "Parental controls",
     ],
   },
 ];
@@ -81,13 +81,13 @@ const plans: PlanProps[] = [
     </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-      Get unlimitted access
+      Choose Your Plan
     </h2>
 
     <h3
       class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14"
     >
-      Lorem ipsum dolor sit amet consectetur adipisicing reiciendis.
+      Start free and upgrade anytime. All plans include access to millions of songs.
     </h3>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4">

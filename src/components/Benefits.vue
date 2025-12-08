@@ -19,27 +19,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "blocks",
-    title: "Build Brand Trust",
+    title: "Unlimited Music Library",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Access millions of songs across all genres. From classic hits to the latest releases, find everything you love in one place.",
   },
   {
     icon: "lineChart",
-    title: "More Leads",
+    title: "High-Quality Audio",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Experience crystal-clear sound with lossless audio streaming. Enjoy music the way artists intended it to be heard.",
   },
   {
     icon: "wallet",
-    title: "Higher Conversions",
+    title: "Personalized Playlists",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "AI-powered recommendations that learn your taste. Discover new music tailored just for you every day.",
   },
   {
     icon: "sparkle",
-    title: "Test Marketing Ideas",
+    title: "Offline Listening",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Download your favorite tracks and playlists. Listen anywhere, anytime, even without an internet connection.",
   },
 ];
 
@@ -71,12 +71,12 @@ const iconMap: Record<
         <h2 class="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
-          Your Shortcut to Success
+          Why Choose Jeffplay
         </h2>
         <p class="text-xl text-muted-foreground mb-8">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
-          reprehenderit architecto rerum similique facere odit deleniti
-          necessitatibus quo quae.
+          Experience music streaming like never before. With Jeffplay, you get
+          premium features, unlimited access, and the best audio quality all in
+          one platform.
         </p>
       </div>
 

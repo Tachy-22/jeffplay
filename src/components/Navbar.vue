@@ -60,18 +60,18 @@ const routeList: RouteProps[] = [
 
 const featureList: FeatureProps[] = [
   {
-    title: "Showcase Your Value ",
-    description: "Highlight how your product solves user problems.",
+    title: "High-Quality Audio",
+    description: "Experience crystal-clear sound with lossless audio streaming.",
   },
   {
-    title: "Build Trust",
+    title: "Personalized Playlists",
     description:
-      "Leverages social proof elements to establish trust and credibility.",
+      "AI-powered music recommendations tailored to your taste.",
   },
   {
-    title: "Capture Leads",
+    title: "Offline Listening",
     description:
-      "Make your lead capture form visually appealing and strategically.",
+      "Download your favorite tracks and listen anywhere, anytime.",
   },
 ];
 
@@ -93,7 +93,7 @@ const isOpen = ref<boolean>(false);
       <ChevronsDown
         class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white"
       />
-      ShadcnVue</a
+      Jeffplay</a
     >
     <!-- Mobile -->
     <div class="flex items-center lg:hidden">
@@ -119,7 +119,7 @@ const isOpen = ref<boolean>(false);
                   <ChevronsDown
                     class="bg-gradient-to-tr from-primary/70 via-primary to-primary/70 rounded-lg size-9 mr-2 border text-white"
                   />
-                  ShadcnVue
+                  Jeffplay
                 </a>
               </SheetTitle>
             </SheetHeader>

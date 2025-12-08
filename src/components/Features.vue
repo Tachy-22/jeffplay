@@ -21,39 +21,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "tabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Cross-Device Sync",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Seamlessly switch between your phone, tablet, and desktop. Your music follows you everywhere.",
   },
   {
     icon: "badgeCheck",
-    title: "Social Proof",
+    title: "Curated Playlists",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Expert-curated playlists for every mood and moment. From workout beats to chill vibes.",
   },
   {
     icon: "goal",
-    title: "Targeted Content",
+    title: "Smart Discovery",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Discover new artists and tracks based on your listening habits. Never run out of fresh music.",
   },
   {
     icon: "pictureInPicture",
-    title: "Strong Visuals",
+    title: "Lyrics Display",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Sing along with real-time synchronized lyrics. Never miss a word of your favorite songs.",
   },
   {
     icon: "mousePointerClick",
-    title: "Clear CTA",
+    title: "One-Tap Sharing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Share your favorite tracks and playlists with friends instantly across all social platforms.",
   },
   {
     icon: "newspaper",
-    title: "Clear Headline",
+    title: "New Releases",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Stay updated with the latest music from your favorite artists. Get notified about new albums and singles.",
   },
 ];
 
@@ -89,13 +89,13 @@ const iconMap: Record<
     </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-      What Makes Us Different
+      What Makes Jeffplay Special
     </h2>
 
     <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-      fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-      facere tenetur.
+      Discover the features that make Jeffplay the ultimate music streaming
+      platform. From smart recommendations to high-fidelity audio, we've got
+      everything you need.
     </h3>
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

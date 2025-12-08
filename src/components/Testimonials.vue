@@ -30,51 +30,51 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    name: "Alex Rivera",
+    userName: "Music Enthusiast",
     comment:
-      "Wow Vue + Shadcn-Vue is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "Jeffplay has completely transformed how I discover music. The AI recommendations are spot-on, and the audio quality is unmatched!",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    name: "Sarah Chen",
+    userName: "Professional DJ",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "As a DJ, I need reliable access to high-quality music. Jeffplay delivers every time with its vast library and offline mode.",
     rating: 4.8,
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    name: "Marcus Johnson",
+    userName: "Indie Artist",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "The platform helped me discover so many new artists and genres. The curated playlists are perfect for every mood and occasion.",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
+    name: "Emma Thompson",
+    userName: "Podcast Host",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "I love how Jeffplay integrates podcasts with music. It's my one-stop app for all audio entertainment. The cross-device sync is seamless!",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    name: "David Park",
+    userName: "Music Producer",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "The lossless audio quality is a game-changer. I can finally hear every detail in the production. Jeffplay is essential for any serious listener.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    name: "Lisa Martinez",
+    userName: "Fitness Instructor",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Creating workout playlists has never been easier. The energy-based recommendations keep my classes pumped and motivated!",
     rating: 4.9,
   },
 ];
@@ -91,7 +91,7 @@ const reviewList: ReviewProps[] = [
       </h2>
 
       <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-        Hear What Our 1000+ Clients Say
+        Hear What Our 100K+ Users Say
       </h2>
     </div>
 

@@ -11,31 +11,31 @@ interface HowItWorksProps {
 
 const HowItWorksList: HowItWorksProps[] = [
   {
-    badgeTitle: "Contribute",
-    title: "Make a Difference with Every Contribution",
+    badgeTitle: "Sign Up",
+    title: "Create Your Free Account",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
+      "Get started in seconds. Sign up with your email or social account and begin your musical journey with Jeffplay.",
     image: "roboto.png",
   },
   {
     badgeTitle: "Discover",
-    title: "Create an Impact with Every Choice",
+    title: "Explore Millions of Songs",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, sint reiciendis quidem iure veritatis optio facere tenetur.",
+      "Browse through our vast library of music. Search by artist, genre, mood, or let our AI recommend the perfect tracks for you.",
     image: "runner.png",
   },
   {
-    badgeTitle: "Innovate",
-    title: "Make Every Action Count",
+    badgeTitle: "Create",
+    title: "Build Your Perfect Playlists",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, odit similique quasi sint.",
+      "Organize your favorite songs into custom playlists. Mix genres, create mood-based collections, or curate the perfect party mix.",
     image: "pacheco.png",
   },
   {
-    badgeTitle: "Collaborate",
-    title: "Tackle this challenge together",
+    badgeTitle: "Share",
+    title: "Connect Through Music",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
+      "Share your playlists with friends, discover what others are listening to, and build a community around the music you love.",
     image: "gamestation.png",
   },
 ];
@@ -52,7 +52,7 @@ const HowItWorksList: HowItWorksProps[] = [
       </h2>
 
       <h2 class="text-3xl md:text-4xl text-center font-bold">
-        Step-by-Step Process
+        Getting Started is Easy
       </h2>
     </div>
 

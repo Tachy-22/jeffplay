@@ -20,31 +20,31 @@ interface sponsorsProps {
 const sponsors: sponsorsProps[] = [
   {
     icon: "crown",
-    name: "Acmebrand",
+    name: "Universal Music",
   },
   {
     icon: "vegan",
-    name: "Acmelogo",
+    name: "Sony Records",
   },
   {
     icon: "ghost",
-    name: "Acmesponsor",
+    name: "Warner Music",
   },
   {
     icon: "puzzle",
-    name: "Acmeipsum",
+    name: "Atlantic Records",
   },
   {
     icon: "squirrel",
-    name: "Acme",
+    name: "Capitol Records",
   },
   {
     icon: "cookie",
-    name: "Accmee",
+    name: "Columbia Records",
   },
   {
     icon: "drama",
-    name: "Acmetech",
+    name: "Interscope",
   },
 ];
 
@@ -73,7 +73,7 @@ const iconMap: Record<
     id="sponsors"
     class="max-w-[75%] mx-auto pb-24 sm:pb-32"
   >
-    <h2 class="text-lg md:text-xl text-center mb-6">Our Platinum Sponsors</h2>
+    <h2 class="text-lg md:text-xl text-center mb-6">Our Music Partners</h2>
 
     <div class="mx-auto">
       <Marquee

@@ -21,25 +21,25 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Podcast Integration",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "Listen to your favorite podcasts alongside your music in one seamless experience.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "Artist Radio",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
+      "Create radio stations based on your favorite artists and discover similar music.",
     pro: 0,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
+    title: "Music Discovery AI",
+    description: "Advanced AI that learns your taste and suggests perfect tracks.",
     pro: 0,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    title: "Concert Alerts",
+    description: "Get notified when your favorite artists are performing near you.",
     pro: 1,
   },
 ];
@@ -55,11 +55,11 @@ const serviceList: ServiceProps[] = [
     </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-      Grow Your Business
+      Premium Music Features
     </h2>
     <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-      From marketing and sales to operations and strategy, we have the expertise
-      to help you achieve your goals.
+      Enhance your listening experience with advanced features designed for true
+      music lovers. From podcasts to live concert notifications.
     </h3>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
