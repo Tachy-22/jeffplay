@@ -83,8 +83,7 @@ const FAQList: FAQProps[] = [
         <a
           href="#"
           class="underline"
-          >Contact us</a
-        >
+          >Contact us</a>
       </a>
     </h3>
   </section>

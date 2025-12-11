@@ -41,20 +41,20 @@ interface FeatureProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#testimonials",
-    label: "Testimonials",
+    href: "/artists",
+    label: "Artists",
   },
   {
-    href: "#team",
-    label: "Team",
+    href: "/albums",
+    label: "Albums",
   },
   {
-    href: "#contact",
+    href: "/charts",
+    label: "Charts",
+  },
+  {
+    href: "/#contact",
     label: "Contact",
-  },
-  {
-    href: "#faq",
-    label: "FAQ",
   },
 ];
 
@@ -86,17 +86,17 @@ const isOpen = ref<boolean>(false);
       'w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border z-40 rounded-2xl flex justify-between items-center p-2 bg-card shadow-md': true,
     }"
   >
-    <a
-      href="/"
+    <RouterLink
+      to="/"
       class="font-bold text-lg flex items-center"
     >
       <ChevronsDown
         class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white"
       />
-      Jeffplay</a
+      Jeffplay</RouterLink
     >
     <!-- Mobile -->
-    <div class="flex items-center lg:hidden">
+    <div class="block items-center lg:hidden">
       <Sheet v-model:open="isOpen">
         <SheetTrigger as-child>
           <Menu
@@ -132,12 +132,12 @@ const isOpen = ref<boolean>(false);
                 variant="ghost"
                 class="justify-start text-base"
               >
-                <a
+                <RouterLink
                   @click="isOpen = false"
-                  :href="href"
+                  :to="href"
                 >
                   {{ label }}
-                </a>
+                </RouterLink>
               </Button>
             </div>
           </div>
@@ -192,9 +192,9 @@ const isOpen = ref<boolean>(false);
               variant="ghost"
               class="justify-start text-base"
             >
-              <a :href="href">
+              <RouterLink :to="href">
                 {{ label }}
-              </a>
+              </RouterLink>
             </Button>
           </NavigationMenuLink>
         </NavigationMenuItem>

@@ -20,7 +20,7 @@ import { ArrowRight } from "lucide-vue-next";
           <span class="mr-2 text-primary">
             <Badge>New</Badge>
           </span>
-          <span>New music features are live! </span>
+          <span>music features are live! </span>
         </Badge>
 
         <div
@@ -99,7 +99,7 @@ import { ArrowRight } from "lucide-vue-next";
   animation-iteration-count: infinite;
   animation-duration: 2s;
   animation-timing-function: linear;
-  animation-direction: alternate;
+  animation-direction: alternate; 
 }
 
 @keyframes img-shadow-animation {

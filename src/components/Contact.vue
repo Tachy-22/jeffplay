@@ -33,6 +33,7 @@ const contactForm = reactive<ContactFormeProps>({
   message: "",
 });
 
+
 const invalidInputForm = ref<boolean>(false);
 
 const handleSubmit = () => {
@@ -60,6 +61,7 @@ const handleSubmit = () => {
         <p class="mb-8 text-muted-foreground lg:w-5/6">
           Have questions about Jeffplay? Want to submit your music or partner with
           us? We'd love to hear from you. Reach out and let's make music together.
+          So kindly reach out to us, let's get this party started.
         </p>
 
         <div class="flex flex-col gap-4">
