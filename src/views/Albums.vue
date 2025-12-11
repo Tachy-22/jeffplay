@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { useQuery, useInfiniteQuery } from '@tanstack/vue-query'
+import { useQuery, } from '@tanstack/vue-query'
 import { musicApi } from '../api/music'
 import { Input } from '../components/ui/input'
 import { Button } from '../components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'
 import { Badge } from '../components/ui/badge'
 import { Skeleton } from '../components/ui/skeleton'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select'
+//import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select'
 import { Search, Disc3, Calendar, Filter } from 'lucide-vue-next'
 import { useRouter } from 'vue-router'
 
@@ -31,11 +31,6 @@ const updateQuery = (value: string) => {
   }, 500)
 }
 
-const handleSearch = (event: Event) => {
-  const target = event.target as HTMLInputElement
-  searchQuery.value = target.value
-  updateQuery(target.value)
-}
 
 const handleArtistFilter = (artist: string) => {
   selectedArtist.value = artist
@@ -93,8 +88,8 @@ const clearFilters = () => {
         <Input
           type="text"
           placeholder="Search by artist name..."
-          :value="searchQuery"
-          @input="handleSearch"
+          v-model="searchQuery"
+          @input="updateQuery(searchQuery)"
           class="pl-10"
         />
       </div>
