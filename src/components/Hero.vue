@@ -74,6 +74,8 @@ import { ArrowRight } from "lucide-vue-next";
             mode == 'light' ? 'hero-image-light.jpg' : 'hero-image-dark.jpg'
           "
           alt="dashboard using shadcn-vue"
+          width="1200"
+          height="675"
         />
 
         <!-- gradient effect img -->
